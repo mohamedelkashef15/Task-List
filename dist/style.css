@@ -1,0 +1,25 @@
+body{
+  background-color: #101820ff;
+  
+}
+
+.card,.card-action
+{
+  /* background-color:#f2aa4cff; */
+  background-color:#f4f4f4;
+  border-radius: 5px !important;
+  /* box-shadow: 2px 10px rgba(0, 0, 0, 0.3) ; */
+  filter: drop-shadow(6px 6px 5px rgb(12, 14, 17));/*UP/DOWN - Left/right - blur*/
+}
+input {
+   background:#101820ff  !important;
+   /* padding: 1px !important; */
+  color: #ffffff;
+  border-radius: 10px;
+}
+.btn{
+  margin-left: 10px !important;
+}
+.clear-tasks, .clear-tasks:hover {
+  background-color: #f2aa4cff;
+}
