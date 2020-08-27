@@ -46,6 +46,7 @@ function runEvent(e){
   
   if (taskInput.value === ''){
     alert('Enter New Task');
+        return;
   }
   
   const li = document.createElement('li');
